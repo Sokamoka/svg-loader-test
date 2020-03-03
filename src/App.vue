@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Icon name="checked_in_bag_variation3-extra"></Icon>
+    <Icon name="icon__bulb" width="40"></Icon>
+    <Icon name="icon__tick" width="40" fill="red"></Icon>
+    <Icon name="icon__tick" width="60" fill="green"></Icon>
+    <Icon name="icon__tick" width="80" height="80" fill="blue" viewBox="0 0 24 24"></Icon>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Icon from "./components/Icon";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Icon
   }
 };
 </script>
